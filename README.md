@@ -1,6 +1,6 @@
 ##unit spFormPlacement
 {}
-Provides simple class TAppFormIniFile on base TWinIniю It partially replaces   
+Provides simple class TAppFormIniFile on base TWinIni. It partially replaces   
 the D5 Rx FormPlacement and Lazarus TIniPropStorage Lazarus components.
  It has functions to save (Put) and restore (Get) TForm size (Width, Height)
 or size and position (Left, Top) and Scaled), it does not use float & round
@@ -25,7 +25,7 @@ TFloatSpinEdit (like TFloatSpinEdit in Lazarus)
 TExtSpinEdit (like TRxSpinEdit )
 
 spIntFloatEdit.pas can be used in the Delphi 10.3 (uses spIntFloatEdit)
-proting code to Delphi without Rx library we need replace in code 
+porting code to Delphi without Rx library we need replace in code 
   TRxSpinEdit by TExtSpinEdit
 
 porting code to Lazarus we need replace in code 
